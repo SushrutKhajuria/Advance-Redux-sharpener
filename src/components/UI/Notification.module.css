@@ -1,0 +1,23 @@
+.notification {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 1rem;
+    color: white;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+    z-index: 100;
+  }
+  
+  .success {
+    background-color: #2b8a3e;
+  }
+  
+  .error {
+    background-color: #c92a2a;
+  }
+  
+  .pending {
+    background-color: #1971c2;
+  }
